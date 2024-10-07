@@ -18,7 +18,6 @@ class Solution(object):
                 stack.append(char)
         
         return not stack
-        pass
 
 
 
