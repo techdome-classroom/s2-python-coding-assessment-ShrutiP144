@@ -9,7 +9,6 @@ class Solution(object):
             'C': 100, 'D': 500, 'M': 1000
         }
         
-        # Initialize the integer result
         total = 0
         
         # Traverse through the string, checking each symbol and the next one
