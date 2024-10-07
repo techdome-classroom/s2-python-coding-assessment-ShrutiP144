@@ -17,7 +17,6 @@ class Solution(object):
             else:
                 stack.append(char)
         
-        # If the stack is empty, it means all brackets were matched correctly
         return not stack
         pass
 
