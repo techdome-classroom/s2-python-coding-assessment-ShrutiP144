@@ -12,7 +12,6 @@ class Solution(object):
         total = 0
         
         for i in range(len(s)):
-            # If the current value is less than the next one, subtract it from the total (for cases like IV, IX, etc.)
             if i < len(s) - 1 and roman_map[s[i]] < roman_map[s[i + 1]]:
                 total -= roman_map[s[i]]
             else:
