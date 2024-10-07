@@ -6,7 +6,6 @@ class Solution(object):
         """
 
         stack = []
-        # Dictionary to map closing brackets to corresponding opening brackets
         mapping = {")": "(", "}": "{", "]": "["}
 
         # Loop through each character in the input string
