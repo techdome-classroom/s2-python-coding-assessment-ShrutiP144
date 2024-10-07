@@ -11,7 +11,6 @@ class Solution(object):
         
         total = 0
         
-        # Traverse through the string, checking each symbol and the next one
         for i in range(len(s)):
             # If the current value is less than the next one, subtract it from the total (for cases like IV, IX, etc.)
             if i < len(s) - 1 and roman_map[s[i]] < roman_map[s[i + 1]]:
