@@ -8,9 +8,7 @@ class Solution(object):
         stack = []
         mapping = {")": "(", "}": "{", "]": "["}
 
-        # Loop through each character in the input string
         for char in s:
-            # If the character is a closing bracket
             if char in mapping:
                 # Pop the top element from the stack if it's not empty; otherwise assign a dummy value
                 top_element = stack.pop() if stack else '#'
